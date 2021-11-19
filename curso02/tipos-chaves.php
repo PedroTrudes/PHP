@@ -9,3 +9,5 @@ $array = [
 foreach ($array as $item) {
     echo $item . PHP_EOL;
 }
+
+// não se usa esse modelo 
