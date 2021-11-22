@@ -32,5 +32,10 @@ function titularComLetrasMaiusculas (array &$conta)
 
 function exibirMensagem(String $mensagem) 
 {
-    echo $mensagem . PHP_EOL;
+    echo $mensagem . '<br>';
+}
+
+function exibiConta (array $conta) {
+    ['titular' => $titular , 'saldo' => $saldo] = $conta;
+   echo "<li>Titular: $titular. Saldo: $saldo</li>";
 }
